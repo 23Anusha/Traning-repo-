@@ -11,8 +11,8 @@ public class MarksAndPercentage {
 		int Science = 67;
 		int Socialscience = 82;
 		int Total = Kannada+English+Hindi+Mathematics+Science+Socialscience;
-		float Percentage = Total/6f;
-		System.out.println("The Total Marks Are " + Total + "Out of 600 And The Percentage is " + Percentage);
+		float Percentage = Total/6.25f;
+		System.out.println("The Total Marks Are " + Total + "Out of 625 And The Percentage is " + Percentage);
 	}
 
 }
